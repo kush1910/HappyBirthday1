@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+
+* {
+    box-sizing: border-box;
+    background-color: rgb(157, 201, 221);
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Sniglet-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.877);
+    --primary: #3DCFD3;
+    --dark: #161616;
+    --pure: #ffffff;
+    --terary: #898989;
+    --light: #F2F2F2;
+    --secondary: #070606;
+}
+
+.nav {
+    background-color: rgb(14, 172, 245);
+}
+
+.col-item {
+    margin: auto;
+    font-size: x-large;
+    color: rgb(14, 172, 245);
+    padding: 50px;
+}
+
+.btn {
+    padding: 0.8rem 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    letter-spacing: 1px;
+}
+
+.btn-primary:hover {
+    background: transparent;
+    border-color: rgb(14, 172, 245);
+    color: whitesmoke;
+}
+
+.btn-primary {
+    background-color: rgb(195, 224, 238);
+    color: black;
+}
+
+.img-size {
+    height: 200px;
+    width: 120px;
+    justify-self: unset;
+}
+
+.vedio {
+    margin: auto;
+}
+
+.txt {
+    color: #6b5fce;
+    margin: 2rem;
+    text-align: center;
+    padding: auto;
+    font-size: x-large;
+    font-family: fantasy;
+    box-sizing: border-box;
+}
+
+.txt1 {
+    color: rgb(14, 172, 245);
+    margin: 2rem;
+    text-align: center;
+    padding: auto;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+}
+
+.container1 {
+    color: rgb(14, 172, 245);
+    padding: 25px 25px 25px 25px;
+}
+
+.sleepy {
+    --Sniglet-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #5ba7ee, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.877);
+    --primary: #3DCFD3;
+    --dark: #161616;
+    --pure: #ffffff;
+    --terary: #898989;
+    --light: #F2F2F2;
+    --secondary: #070606;
+}
+
+.sec {
+    align-content: flex-end;
+}
