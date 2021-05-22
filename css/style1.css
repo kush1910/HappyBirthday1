@@ -110,3 +110,24 @@ section {
     --light: #F2F2F2;
     --secondary: #070606;
 }
+
+.glow {
+    color: blue;
+    animation: section-2-glow 1s ease-in-out infinite alternate;
+    margin: 20px;
+    top: 16vh;
+    left: 50vh;
+    right: 50vh;
+    font-family: 'Lobster Two', cursive;
+    font-size: 4rem;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0514ddc5, 0 0 40px #0514ddc5, 0 0 50px #0514ddc5, 0 0 60px #0514ddc5, 0 0 70px #0514ddc5;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #0514ddc5, 0 0 40px #ff4
+    }
+}
